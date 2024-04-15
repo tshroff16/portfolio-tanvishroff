@@ -93,7 +93,7 @@
           <li><a href="index.html#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
           <!-- <li><a href="index.html#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li> -->
           <li><a href="index.html#achievements" class="nav-link scrollto"><i class="bi bi-trophy"></i> <span>Achievements</span></a></li>
-          <li><a href="index.html#certifications" class="nav-link scrollto"><i class="bi bi-patch-check"></i> <span>Certifications</span></a></li>
+          <!-- <li><a href="index.html#certifications" class="nav-link scrollto"><i class="bi bi-patch-check"></i> <span>Certifications</span></a></li> -->
           <li><a href="index.html#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
         </ul>
       </nav><!-- .nav-menu -->
@@ -178,13 +178,13 @@
 
                 A WHO report says around 60M people in India suffer from either complete or partial deafness, and of these, at least 5M are children. 
                 There are very few certified sign language interpreters available and therefore, there is a need for a system that establishes a link between spoken and sign languages. <br>
-                The model created has 3 parts. First, the english sentence is taken as input in the form of text or speech(using the Google text to speech API). 
-                The sentence then undergoes pre processing. 
+                The model created has 3 parts. First, the english sentence is taken as input in the form of text or speech (using the Google text to speech API). 
+                The sentence then undergoes pre-processing. 
                 The primary language processing model includes tokenization, part of  speech tagging,  word eliminator and lemmatization. 
                 In module 2, using the ISL grammar rules, the processed English sentence is converted to an ISL sentence. ISL essentially follows a Subject-Object-Verb agreement unlike English which follows a Subject-Verb-Object.
                 Module 3 includes the following steps: <br>
                 1. Extraction of word’s Hamburg Notation System (HamNoSys) from the database.<br>
-                2. Generation of  Siging Gesture Markup Language (SiGML) files from its HamNoSys. <br>
+                2. Generation of  Signing Gesture Markup Language (SiGML) files from its HamNoSys. <br>
                 3. These SiGML files are accessed by the animation server for generating animation frames. Further, these frames are used to define the pose of an avatar. <br>
                 4. Finally, the ISL sign is played  in the form of 3D avatar animation.
 
